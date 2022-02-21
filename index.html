@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias Cidade - O seu Site de Notícias</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="shortcut icon" href="logo.png">
+</head>
+
+<body>
+    
+    <div id="container">
+
+        <header class="cabecalho">
+        
+            <div id="topo">
+                <img class="logo" src="logo.png" alt="Logo Notícias Cidade">
+                
+                <nav class="nav">
+                    <a class="cabecalho-itens primeiro" href="#">Home</a>
+                    <a class="cabecalho-itens" href="brasil.html">Brasil</a>
+                    <a class="cabecalho-itens" href="#">Internacional</a>
+                    <a class="cabecalho-itens" href="#">Economia</a>
+                    <a class="cabecalho-itens" href="#">Saúde</a>
+                    <a class="cabecalho-itens" href="#">Ciência</a>
+                    <a class="cabecalho-itens" href="fotos.html">Fotos</a>
+                </nav>
+            </div>
+            <img class="imagem-topo" src="detalhe-topo.png" alt="Brasil">
+        </header>
+
+        <main id="conteudo">
+            <section id="lateral">
+                <div class="caixa">
+                    <h2 class="titulo">Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="#">José Almeida</a></li>
+                            <li><a href="#">Felipe Silva</a></li>
+                            <li><a href="#">Renato Rodrigues</a></li>
+                            <li><a href="#">Abelardo Silveira</a></li>
+                            <li><a href="#">André Carlos</a></li>
+                            <li><a href="#">Márcio Mello</a></li>
+                            <li><a href="#">João Pedro</a></li>
+                            <li><a href="#">Fernando Weiss</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2 class="titulo">News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+                            </div>
+
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="primario">
+                <div class="caixa">
+                    <h2 class="titulo">Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3 class="sub-titulo">Nova Legislação</h3>
+                        <img class="imagens-conteudo" src="taxi.jpg" alt="Foto taxi">
+                        <p>
+                            Medidas que vão beneficiar os taxistas da capital.
+                        </p>
+                        <a class="leia-mais" href="#">Leia mais</a>
+                    </div>    
+                </div>        
+
+                <div class="caixa">
+                    <h2 class="titulo">Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="tecnologia.jpg" alt="Eletrônicos">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>Novas tecnologias no Brasil e no mundo...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="mundo.jpg" alt="Cidade">
+                                    <h3>Grandes Cidades</h3>
+                                    <p>Veja a evolução das Grandes Cidades...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="estadio.jpg" alt="Estádio">
+                                    <h3>Tempestade Eunice</h3>
+                                    <p>Tempestade Eunice faz teto de estádio balançar...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="telescopio.jpg" alt="Telescópio">
+                                    <h3>Telescópio</h3>
+                                    <p>Desenvolvimento do maior telescópio do mundo...</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>     
+                        
+            </section>
+
+            <section id="secundario">
+                <div class="caixa">
+                    <h2 class="titulo">Última Entrevista</h2>
+                    <div class="caixa-conteudo">
+                        <h3 class="sub-titulo">Entrevista com Felipe Silva</h3>
+                        <img class="imagens-conteudo" src="doutor.jpg" alt="Foto do Doutor Entrevistado">
+                        <p>
+                            Dr. Felipe Silva conta um pouco de sua história.
+                        </p>
+                        <a class="leia-mais" href="#">Leia mais</a>
+                    </div>    
+                </div>        
+
+                <div class="caixa">
+                    <h2 class="titulo">Notícias recentes</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="predio.jpg" alt="Prédio">
+                                    <h3>Prédio que gira</h3>
+                                    <p>Leilão de aparta- <br>
+                                        mentos do “Prédio que Gira”...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="nft.jpg" alt="NFT">
+                                    <h3>NFTs</h3>
+                                    <p>Saiba o que são NFTs e como ficaram famosas...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="metaverso.jpg" alt="Meta Verso">
+                                    <h3>Meta Verso</h3>
+                                    <p>Mundo virtual que tenta replicar a realidade...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="Lamborghini.jpg" alt="Lamborghini">
+                                    <h3>Lamborghini</h3>
+                                    <p>Está é a nova versão do Lamborghini Countach...</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>     
+            </section>
+
+        </main>
+
+    </div>
+
+    <footer id="container-rodape">
+        <div id="rodape">
+            &copy; Copyright 2000-2022 Notícias Cidade
+        </div>
+    </footer>
+</body>
+</html>

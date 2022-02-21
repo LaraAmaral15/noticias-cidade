@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias Cidade - O seu Site de Notícias</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="brasil.css">
+    <link rel="shortcut icon" href="logo.png">
+</head>
+
+<body>
+    
+    <div id="container">
+
+        <header class="cabecalho">
+        
+            <div id="topo">
+                <img class="logo" src="logo.png" alt="Logo Notícias Cidade">
+                
+                <nav class="nav">
+                    <a class="cabecalho-itens primeiro" href="index.html">Home</a>
+                    <a class="cabecalho-itens" href="brasil.html">Brasil</a>
+                    <a class="cabecalho-itens" href="#">Internacional</a>
+                    <a class="cabecalho-itens" href="#">Economia</a>
+                    <a class="cabecalho-itens" href="#">Saúde</a>
+                    <a class="cabecalho-itens" href="#">Ciência</a>
+                    <a class="cabecalho-itens" href="fotos.html">Fotos</a>
+                </nav>
+            </div>
+            <img class="imagem-topo" src="detalhe-topo.png" alt="Brasil">
+        </header>
+
+        <main id="conteudo">
+            <section id="lateral">
+                <div class="caixa">
+                    <h2 class="titulo">Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="#">José Almeida</a></li>
+                            <li><a href="#">Felipe Silva</a></li>
+                            <li><a href="#">Renato Rodrigues</a></li>
+                            <li><a href="#">Abelardo Silveira</a></li>
+                            <li><a href="#">André Carlos</a></li>
+                            <li><a href="#">Márcio Mello</a></li>
+                            <li><a href="#">João Pedro</a></li>
+                            <li><a href="#">Fernando Weiss</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2 class="titulo">News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+                            </div>
+
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="primario">
+                <div class="caixa">
+                    <h2 class="titulo">Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3 class="sub-titulo">Nova Legislação</h3>
+                        <img class="imagens-conteudo" src="taxi.jpg" alt="Foto taxi">
+                        <p>
+                            Medidas que vão beneficiar os taxistas da capital.
+                        </p>
+                        <a class="leia-mais" href="#">Leia mais</a>
+                    </div>    
+                </div>        
+
+                <div class="caixa">
+                    <h2 class="titulo">Notícias</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="carros.jpg" alt="Carros">
+                                    <h3>Novos carros chegarão ao Brasil</h3>
+                                    <p>Mercado brasileiro terá lançamentos aguardados em diversos segmentos, com foco em picapes, hatches e SUVs...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="celular.jpg" alt="Celulares">
+                                    <h3>Celulares mais aguardados</h3>
+                                    <p>O ano de 2022 ainda nem começou, mas os boatos sobre os próximos lançamentos de celulares estão a todo vapor...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="shopee.jpg" alt="Logo Shopee">
+                                    <h3>Centro de distribuição Shopee</h3>
+                                    <p>Shopee constrói centro de distribuição no Brasil para competir com a Amazon e o Mercado Livre...</p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img class="imagens-lista" src="nfts.jpg" alt="NFT">
+                                    <h3>NFTs no Brasil</h3>
+                                    <p>Brasil é 3º em lista de países com mais usuários ativos de NFTs...</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>     
+                        
+            </section>
+
+        </main>
+
+    </div>
+
+    <footer id="container-rodape">
+        <div id="rodape">
+            &copy; Copyright 2000-2022 Notícias Cidade
+        </div>
+    </footer>
+</body>
+</html>

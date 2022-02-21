@@ -1,0 +1,18 @@
+#primario{
+    width: 700px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.fotos{
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo-fotos{
+    font-size: 1.5em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}

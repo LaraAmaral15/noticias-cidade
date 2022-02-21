@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Trebuchet MS", sans-serif;
+    background: #fff url(fundo.png) repeat-x;
+}
+
+#container{
+    width: 700px;
+    margin: 0 auto;
+   
+}
+
+#topo{
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 30px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem-topo{
+   padding-top: 10px;
+    width: 170px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.cabecalho-itens{
+    padding: 8px;
+    background: #b10333  url(divisor.png) no-repeat left center;
+    color:#fff;
+   
+}
+
+.cabecalho-itens:hover{
+    color: rgb(247, 221, 231);
+    background-color: #69001d;
+}
+
+.primeiro{
+    background: #b10333;
+}
+
+/* fim cabecalho */
+
+#conteudo{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa{
+    background: #f3f3f3 url(fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+}
+
+.caixa-conteudo{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.imagens-conteudo{
+    width: 100%;
+    border: 2px solid #dfdfdf;
+    margin-top: 5px;
+    height: 10%px;
+}
+
+
+/*lista notícias */
+.imagens-lista{
+    width: 80px;
+    height: 55px;
+    float: left;
+    padding-right: 5px;
+}
+
+#lista-noticias li{
+    padding-left: 2px;
+    border-bottom: 1 px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.7em; 
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li p {
+    font-size: 0.7em;
+    color: #000;
+} 
+
+#lista-noticias li:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+/* conteúdo escrito */
+
+.titulo{
+    font-size: 1.1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    
+}
+
+h3.sub-titulo{
+    background-color: #b10333;
+    color: #fff;
+}
+
+.sub-titulo2{
+    color: #000;
+    background-color: #b10333;
+}
+
+.leia-mais{
+    color: #3e7ab9;
+}
+
+.leia-mais:hover{
+    color: #326499;
+    transition: 2s;
+}
+
+/* fim conteudo */
+
+#container-rodape{
+    background-color: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    text-align: center;
+    color: #fff;
+}
